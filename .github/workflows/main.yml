@@ -46,7 +46,7 @@ jobs:
       - name: 6. Upload the build artifacts
         uses: actions/upload-artifact@v3.0.0
         with:
-          name: retype-1.0.0-linux
+          name: staticx-linux-sample
           path: ./dist/
           if-no-files-found: error
           retention-days: 1
